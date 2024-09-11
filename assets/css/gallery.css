@@ -1,0 +1,68 @@
+    .grid-container {
+    columns: 3 200px;
+    /* background-color: red; */
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(250px, 1fr)
+    ); /* Adjust column size */
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    div {
+        width: 150px;
+        margin: 0 1.5rem 1.5rem 0;
+        display: inline-block;
+        width: 100%;
+        border: solid 2px black;
+        padding: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        transition: all 0.25s ease-in-out;
+        &:hover img {
+        filter: grayscale(0);
+        }
+        &:hover {
+        border-color: #0563bb;
+        }
+        img {
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all 0.25s ease-in-out;
+        }
+        p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-size: large;
+        /* font-style: italic; */
+        }
+    }
+    }
+
+    .grid-item {
+    position: relative;
+    overflow: hidden;
+    height: auto; /* Ensure auto height for items */
+    }
+
+    .grid-item img {
+    width: 100%;
+    height: auto;
+    }
+
+    /* Fade-out and fade-in animations */
+    .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    }
+
+    .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    }
+
+    /* Hidden items will have display: none */
+    /* .hidden {
+    display: none;
+    } */
