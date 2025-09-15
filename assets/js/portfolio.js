@@ -1,5 +1,16 @@
 const portfolioData = [
     {
+        key: "hobilendim",
+        title: "Hobilendim",
+        description: "Hobilendim is e-commerce platform for hobby materials.",
+        image: "assets/img/projects/hobilendim/hobilendim.png",
+        category: "web,api",
+        development: ["nextjs", "nodejs", "firebase", "shopier"],
+        gallery: "portfolio-gallery-app",
+        detailsLink: "portfolio-details.html",
+        link: "https://www.hobilendim.com",
+    },
+    {
         key: "deslora",
         title: "Deslora",
         description: "Deslora is own startup project.",
@@ -8,7 +19,7 @@ const portfolioData = [
         development: ["react-native", "nextjs", "nodejs", "mongo"],
         gallery: "portfolio-gallery-app",
         detailsLink: "portfolio-details.html",
-        link: "#",
+        link: "https://www.deslora.com",
     },
     {
         key: "mmovie",
@@ -19,7 +30,7 @@ const portfolioData = [
         development: ["flutter", "firebase"],
         gallery: "portfolio-gallery-photography",
         detailsLink: "portfolio-details.html",
-        link: "#",
+        link: "https://www.youtube.com/watch?v=obfqVsJRhaY",
     },
     {
         key: "meme-app",
@@ -41,7 +52,7 @@ const portfolioData = [
         development: ["flutter", "firebase"],
         gallery: "portfolio-gallery-app",
         detailsLink: "portfolio-details.html",
-        link: "#",
+        link: "https://www.youtube.com/watch?v=ctOEM0bbpGo",
     },
     {
         key: "solvio-erp",
@@ -52,7 +63,7 @@ const portfolioData = [
         development: ["flutter", "firebase"],
         gallery: "portfolio-gallery-product",
         detailsLink: "portfolio-details.html",
-        link: "#",
+        link: "https://www.youtube.com/watch?v=cUIE73fStfI",
     },
     {
         key: "alpha-chat",
@@ -74,7 +85,7 @@ const portfolioData = [
         development: ["flutter"],
         gallery: "portfolio-gallery-branding",
         detailsLink: "portfolio-details.html",
-        link: "#",
+        link: "https://www.youtube.com/watch?v=gQ6gG1FE00Q",
     },
     {
         key: "tarifist",
